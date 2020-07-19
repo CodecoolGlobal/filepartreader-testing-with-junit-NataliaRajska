@@ -35,6 +35,5 @@ public class FilePartReader {
         String[] splittedText = originalText.split(System.lineSeparator());
         String[] selectedLines = Arrays.copyOfRange(splittedText, fromLine - 1, toLine);
         return String.join(" ", selectedLines);
-
     }
 }
