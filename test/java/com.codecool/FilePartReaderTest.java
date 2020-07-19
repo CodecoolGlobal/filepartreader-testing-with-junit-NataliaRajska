@@ -13,7 +13,7 @@ class FilePartReaderTest {
 
     @Test
     public void testReader() throws IOException {
-        filePartReader.setUp("src/main/resources/text.txt",1, 1);
+        filePartReader.setUp("src/main/resources/text.txt",3, 6);
         
         assertEquals("Mrs. Dursley came into the living room carrying two\n" +
                 "cups of tea. It was no good. He’d have to say\n" +
