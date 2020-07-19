@@ -17,5 +17,10 @@ public class fileWordAnalizer {
         return Arrays.asList(originalText.split("\\W"));
     }
 
+    public List<String> getWordsOrderedAlphabetically() throws IOException {
+        List<String> splittedText = split();
+        splittedText.sort(String::compareToIgnoreCase);
+        return splittedText;
+    }
 
 }
