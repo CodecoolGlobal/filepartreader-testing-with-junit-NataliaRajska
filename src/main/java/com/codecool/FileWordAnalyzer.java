@@ -5,11 +5,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class fileWordAnalizer {
+public class FileWordAnalyzer {
 
     FilePartReader filePartReader;
 
-    public void FileWordAnalyzer(FilePartReader filePartReader) {
+    public FileWordAnalyzer(FilePartReader filePartReader) {
         this.filePartReader = filePartReader;
     }
 
